@@ -1,0 +1,262 @@
+body{
+    font-family: "red hat display", sans-serif;
+    background-image: url(file:///Users/aliaagabllah/Desktop/Projects/Order_Summary_Component%20_Project/images/pattern-background-mobile.svg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-color: hsl(225, 100%, 94%); /* pale blue */
+}
+
+#container {
+    margin: 71px auto;
+    width: 20.4375rem; /* 327px */
+    height: 35.4375rem; /* 567px */
+    border-radius: 1.25rem; /* 20px */
+    border: 1px solid transparent;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.hdr_img {
+    background-image: url(file:///Users/aliaagabllah/Desktop/Projects/Order_Summary_Component%20_Project/images/illustration-hero.svg);
+    background-size: contain;
+    height: 160px; /* 160px */
+}
+
+.card-content {
+    background-color: white;
+    height: 25.4375rem; /* 407px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 1.875rem; /* 30px */
+    font-size: 1.375rem; /* 22px */
+    color: hsl(223, 47%, 23%); /* dark blue */
+    font-weight: 900;
+}
+
+.content {
+    font-size: 1rem; /* 16px */
+    text-align: center;
+    margin: 0 1.875rem; /* 30px */
+    line-height: 1.6;
+    color: hsl(224, 23%, 55%); /* desaturated blue */
+}
+
+.plan {
+    width: 17.4375rem; /* 279px */
+    height: 5.125rem; /* 82px */
+    margin: 1.5rem; /* 24px */
+    border-radius: 0.625rem; /* 10px */
+    background-color: hsl(225, 100%, 98%); /* very pale blue */
+    display: flex;
+    align-items: center;
+}
+
+.music-icon {
+    margin: 1rem;
+}
+
+.plan-details {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.6;
+}
+
+.p-name {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.p-price {
+    color: hsl(224, 23%, 55%); /* desaturated blue */
+}
+
+.change {
+    font-size: 0.8125rem; /* 13px */
+    font-weight: 700;
+    position: relative;
+    right: -50px;
+    color: hsl(245, 75%, 52%); /* bright blue */
+}
+
+.change:hover {
+    color: hsla(245, 75%, 52%, 0.7);
+    text-decoration: underline solid transparent;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+    
+}
+
+button {
+    width: 17.4375rem;
+    height: 3.125rem; /* 50px */ 
+    border: none;
+    background-color: hsl(245, 75%, 52%); /* bright blue */
+    border-radius: 0.625rem;
+    color: white;
+    font-family: "red hat display", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.375rem; 
+    box-shadow: 0px 20px 20px 0px hsla(245, 75%, 52%, 0.2);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:hsla(245, 75%, 52%, 0.7);
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%); /* desaturated blue */
+    font-weight: 700;
+    font-size: 0.9375rem; /* 15px */
+}
+
+.cancel:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}
+
+@media (min-width: 400px) {
+    body{
+        font-family: "red hat display", sans-serif;
+        background-image: url(file:///Users/aliaagabllah/Desktop/Projects/Order_Summary_Component%20_Project/images/pattern-background-desktop.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%); /* pale blue */
+    }
+    
+    #container {
+        margin: 4.4375rem auto; /* 71px */
+        width: 28.125rem; /* 450px */
+        height: 43.5625rem; /* 697px */
+        border-radius: 1.25rem; /* 20px */
+        border: 0.0625rem solid transparent; /* 1px */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hdr_img {
+        background-image: url(file:///Users/aliaagabllah/Desktop/Projects/Order_Summary_Component%20_Project/images/illustration-hero.svg);
+        background-size: contain;
+        height: 13.75rem; /* 220px */
+    }
+    
+    .card-content {
+        background-color: white;
+        height: 29.8125rem; /* 477px */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .title {
+        margin-top: 2.5rem; /* 40px */
+        margin-bottom: 1.375rem; 
+        font-size: 1.75rem; /* 28px */
+        color: hsl(223, 47%, 23%); /* dark blue */
+        font-weight: 900;
+    }
+    
+    .content {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0 3.125rem; 
+        line-height: 1.6;
+        color: hsl(224, 23%, 55%); /* desaturated blue */
+    }
+    
+    .plan {
+        width: 22.125rem; /* 354px */
+        height: 6.125rem; /* 98px */
+        margin: 1.375rem;
+        border-radius: 0.625rem;
+        background-color: hsl(225, 100%, 98%); /* very pale blue */
+        display: flex;
+        align-items: center;
+    }
+    
+    .music-icon {
+        margin: 1.5625rem; /* 25px */
+    }
+    
+    .plan-details {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    .p-name {
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+    }
+    
+    .p-price {
+        color: hsl(224, 23%, 55%); /* desaturated blue */
+    }
+    
+    .change {
+        font-size: 0.875rem;
+        font-weight: 700;
+        position: relative;
+        right: -3.75rem; /* -60px */
+        color: hsl(245, 75%, 52%); /* bright blue */
+        margin: 1.5625rem; /* 25px */
+    }
+    
+    .change:hover {
+        color: hsla(245, 75%, 52%, 0.7);
+        text-decoration: underline solid transparent;
+        transition: ease-in-out;
+        transition-duration: 300ms;
+        
+    }
+    
+    button {
+        width: 22.125rem;
+        height: 3.125rem;
+        border: none;
+        background-color: hsl(245, 75%, 52%); /* bright blue */
+        border-radius: 0.625rem;
+        color: white;
+        font-family: "red hat display", sans-serif;
+        font-weight: 700;
+        margin-bottom: 1.625rem; /* 26px */
+        margin-top: 1.1875rem; /* 9px */
+        box-shadow: 0 1.25rem 1.25rem 0 hsla(245, 75%, 52%, 0.2);
+    }
+    
+    button:hover {
+        cursor: pointer;
+        background-color:hsla(245, 75%, 52%, 0.7);
+        transition: ease-in-out;
+        transition-duration: 300ms;
+    }
+    
+    .cancel {
+        color: hsl(224, 23%, 55%); /* desaturated blue */
+        font-weight: 700;
+        font-size: 0.9375rem;
+    }
+    
+    .cancel:hover{
+        cursor: pointer;
+        color: hsl(223, 47%, 23%);
+        transition: ease-in-out;
+        transition-duration: 300ms;
+    }
+}
+
+/* 
+    -3rd css project
+    -1st completed project w/ both mobile and desktop designs
+    -1st time I use media queries (don't completely get them yet but I just tried it out and it worked)
+    -still definitely sloppy though
+    -!! fixed svg problem now evrything is showing correctly, now I just have to sub mit solution
+*/
