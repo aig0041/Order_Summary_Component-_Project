@@ -18,7 +18,7 @@ body{
 }
 
 .hdr_img {
-    background-image: url(http://127.0.0.1:5500/images/illustration-hero.svg);
+    background-image: url(file:///Users/aliaagabllah/Desktop/Projects/Order_Summary_Component%20_Project/images/illustration-hero.svg);
     background-size: contain;
     height: 160px; /* 160px */
 }
@@ -144,7 +144,7 @@ button:hover {
     }
     
     .hdr_img {
-        background-image: url(http://127.0.0.1:5500/images/illustration-hero.svg);
+        background-image: url(file:///Users/aliaagabllah/Desktop/Projects/Order_Summary_Component%20_Project/images/illustration-hero.svg);
         background-size: contain;
         height: 13.75rem; /* 220px */
     }
