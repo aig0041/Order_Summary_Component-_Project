@@ -1,6 +1,6 @@
 body{
     font-family: "red hat display", sans-serif;
-    background-image: url(images/pattern-background-mobile.svg);
+    background-image: url(./images/pattern-background-mobile.svg);
     background-size: contain;
     background-repeat:no-repeat;
     background-color: hsl(225, 100%, 94%); /* pale blue */
@@ -18,7 +18,7 @@ body{
 }
 
 .hdr_img {
-    background-image: url(images/illustration-hero.svg);
+    background-image: url(./images/illustration-hero.svg);
     background-size: contain;
     height: 160px; /* 160px */
 }
@@ -128,7 +128,7 @@ button:hover {
 @media (min-width: 400px) {
     body{
         font-family: "red hat display", sans-serif;
-        background-image: url(images/pattern-background-desktop.svg);
+        background-image: url(./images/pattern-background-desktop.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-color: hsl(225, 100%, 94%); /* pale blue */
@@ -146,7 +146,7 @@ button:hover {
     }
     
     .hdr_img {
-        background-image: url(images/illustration-hero.svg);
+        background-image: url(./images/illustration-hero.svg);
         background-size: contain;
         height: 13.75rem; /* 220px */
     }
