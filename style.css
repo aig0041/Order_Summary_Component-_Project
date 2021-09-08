@@ -229,6 +229,7 @@ button:hover {
         color: white;
         font-family: "red hat display", sans-serif;
         font-weight: 700;
+        font-size: 16px;
         margin-bottom: 1.625rem; /* 26px */
         margin-top: 1.1875rem; /* 9px */
         box-shadow: 0 1.25rem 1.25rem 0 hsla(245, 75%, 52%, 0.2);
